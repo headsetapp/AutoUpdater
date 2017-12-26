@@ -1,0 +1,12 @@
+{
+  "name": "headset-autoupdater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "peerDependencies": {
+    "electron": "^1.7.9"
+  },
+  "dependencies": {
+    "electron-gh-releases": "^2.0.4"
+  }
+}
