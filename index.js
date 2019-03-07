@@ -4,8 +4,8 @@ const { dialog, app } = require('electron');
 const dialogOpts = {
   type: 'info',
   buttons: ['Restart', 'Later'],
-  title: 'Application Update',
-  message: 'New Version is Available!',
+  title: 'Headset Update',
+  message: 'New Version is Available for Headset!',
   detail: 'Restart the application to apply the updates.',
 };
 
