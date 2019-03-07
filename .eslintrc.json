@@ -1,0 +1,21 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "airbnb-base"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "settings": {
+    "import/core-modules": [
+      "electron"
+    ]
+  },
+  "rules": {
+    "max-len": ["error", 120]
+  }
+}

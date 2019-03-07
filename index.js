@@ -7,6 +7,7 @@ const dialogOpts = {
   title: 'Headset Update',
   message: 'New Version is Available for Headset!',
   detail: 'Restart the application to apply the updates.',
+  icon: './icon.png',
 };
 
 class AutoUpdater {
