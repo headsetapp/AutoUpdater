@@ -1,12 +1,25 @@
 {
   "name": "headset-autoupdater",
   "version": "0.0.1",
-  "description": "",
+  "description": "A module to update Headset",
   "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/headsetapp/AutoUpdater.git"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
   "peerDependencies": {
-    "electron": "^1.7.9"
+    "electron": "^4.0.6"
   },
   "dependencies": {
     "electron-gh-releases": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
   }
 }
