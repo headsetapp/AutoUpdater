@@ -8,10 +8,18 @@
     "type": "git",
     "url": "https://github.com/headsetapp/AutoUpdater.git"
   },
+  "scripts": {
+    "lint": "eslint ."
+  },
   "peerDependencies": {
     "electron": "^4.0.6"
   },
   "dependencies": {
     "electron-gh-releases": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
   }
 }
