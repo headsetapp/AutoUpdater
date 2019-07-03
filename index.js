@@ -1,5 +1,6 @@
 const GhReleases = require('electron-gh-releases');
-const { dialog, app } = require('electron');
+const { dialog, app, nativeImage } = require('electron');
+const path = require('path');
 
 const dialogOpts = {
   type: 'info',
@@ -7,6 +8,7 @@ const dialogOpts = {
   title: 'Headset Update',
   message: 'New Version is Available for Headset!',
   detail: 'Restart the application to apply the updates.',
+  icon: nativeImage.createFromPath(path.join(__dirname, 'icon.png')),
 };
 
 class AutoUpdater {
